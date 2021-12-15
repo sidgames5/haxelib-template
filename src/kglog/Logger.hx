@@ -15,11 +15,6 @@ class Logger {
   public static var logFile:String = "yyyy-mm-dd@hh:mm:ss.log";
   
   /**
-   * This function literally does nothing
-   */
-  public function new():Void {}
-  
-  /**
    * Configures the logger.
    * @param  LogDir  Path of the program's log file.
    */
@@ -34,7 +29,7 @@ class Logger {
     /*File.saveContent(p, sDate);
     File.saveContent(p, sTime);
     File.saveContent(p, "");*/
-    File.saveContent(p, "Log " + sDate + " at " + sTime);
+    File.saveContent(p, "Log " + sDate + " at " + sTime + "\n");
   }
   
   /**
