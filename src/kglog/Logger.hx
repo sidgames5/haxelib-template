@@ -27,6 +27,8 @@ class Logger {
     var sDate = now.getFullYear() + "-" + now.getMonth() + "-" + now.getDate();
     var sTime = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
     logFile = sDate + "@" + sTime + ".log";
+    var p = Path.join([logDir, logFile]);
+    File.saveContent(p, sDate + sTime);
   }
   
   /**
@@ -36,5 +38,8 @@ class Logger {
    */
   public static function simpleLog(Text:String):Void {
     Console.log(Text);
+    
+    var p = Path.join([logDir, logFile]);
+    File.saveContent(p, Text);
   }
 }
