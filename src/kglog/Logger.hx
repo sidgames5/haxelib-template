@@ -30,6 +30,7 @@ class Logger {
     var p = Path.join([logDir, logFile]);
     File.saveContent(p, sDate);
     File.saveContent(p, sTime);
+    File.saveContent(p, "");
   }
   
   /**
