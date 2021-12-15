@@ -9,7 +9,8 @@
   "releasenote": "",
   "contributors": ["SidGames5"],
   "dependencies": {
-    "Console.hx": ""
+    "Console.hx": "0.2.12",
+    "console-out": "0.0.1"
   },
   "main": "kglog.Main"
 }
