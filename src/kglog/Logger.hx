@@ -31,9 +31,10 @@ class Logger {
     var sTime = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
     logFile = sDate + "@" + sTime + ".log";
     var p = Path.join([logDir, logFile]);
-    File.saveContent(p, sDate);
+    /*File.saveContent(p, sDate);
     File.saveContent(p, sTime);
-    File.saveContent(p, "");
+    File.saveContent(p, "");*/
+    File.saveContent(p, "Log " + sDate + " at " + sTime);
   }
   
   /**
