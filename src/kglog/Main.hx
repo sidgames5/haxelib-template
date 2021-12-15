@@ -1,3 +1,7 @@
+package kglog;
+
+import kglog.util.Reference;
+
 class Main {
   static public function main():Void {
     trace("Starting KGLog " + Reference.VERSION);
