@@ -26,6 +26,7 @@ class Logger {
     var now = Date.now();
     var sDate = now.getFullYear() + "-" + now.getMonth() + "-" + now.getDate();
     var sTime = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+    logFile = sDate + "@" + sTime + ".log";
   }
   
   /**
