@@ -6,7 +6,7 @@
   "description": "A logging system for Keystone Games applications",
   "version": "1.0.0-rc1",
   "classPath": "src/",
-  "releasenote": "Alpha version",
+  "releasenote": "",
   "contributors": ["SidGames5"],
   "dependencies": {
     "Console.hx": "0.2.15"
