@@ -1,16 +1,13 @@
 {
-  "name": "kglog",
-  "url" : "https://github.com/keystone-games/kglog/",
-  "license": "MIT",
-  "tags": ["logging"],
-  "description": "A logging system for Keystone Games applications",
+  "name": "haxelib-template",
+  "url" : "https://github.com/BasicCorruption/haxelib-template",
+  "license": "",
+  "tags": ["useless"],
+  "description": "this does something",
   "version": "1.0.0",
   "classPath": "src/",
   "releasenote": "",
   "contributors": ["SidGames5"],
-  "dependencies": {
-    "Console.hx": "0.2.12",
-    "console-out": "0.0.1"
-  },
-  "main": "kglog.Main"
+  "dependencies": {},
+  "main": "Main"
 }
