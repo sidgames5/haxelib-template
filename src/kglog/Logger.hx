@@ -1,5 +1,8 @@
 package kglog;
 
+import haxe.io.Path;
+import sys.io.File;
+
 class Logger {
   /**
    * Path of the log directory.
