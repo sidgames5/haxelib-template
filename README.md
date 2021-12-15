@@ -1,1 +1,1 @@
-# KGLog
+# haxelib-template
