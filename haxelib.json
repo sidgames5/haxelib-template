@@ -4,7 +4,7 @@
   "license": "MIT",
   "tags": ["logging"],
   "description": "A logging system for Keystone Games applications",
-  "version": "0.0.2",
+  "version": "1.0.0-rc1",
   "classPath": "src/",
   "releasenote": "Alpha version",
   "contributors": ["SidGames5"],
